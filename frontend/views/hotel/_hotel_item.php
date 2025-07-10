@@ -24,6 +24,12 @@ $hotelCategories = ArrayHelper::getColumn($model->hotelCategories, 'name');
 
     <div class="card-body">
         <h5 class="card-title"><?= Html::encode($model->name) ?></h5>
+
+
+        <?php if (!empty($model->latitude) && !empty($model->longitude)): ?>
+            <div class="weather-box" data-lat="<?= $model->latitude ?>" data-lon="<?= $model->longitude ?>" style="display: none;"></div>
+        <?php endif ?>
+
         <p class="card-text">
             <strong>Zimmeranzahl:</strong> <?= $model->zimmeranzahl ?><br>
             <strong>Sterne:</strong> <?= $model->getStarsDisplay() ?><br>

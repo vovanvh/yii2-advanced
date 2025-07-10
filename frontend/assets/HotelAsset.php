@@ -12,10 +12,9 @@ class HotelAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        //'css/site.css',
+        'css/site.css',
     ];
     public $js = [
-        'js/hotel.js',
         'js/bundle.js',
     ];
     public $depends = [

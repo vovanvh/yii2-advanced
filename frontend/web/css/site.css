@@ -101,3 +101,7 @@ a.desc:after {
 {
     text-decoration: none;
 }
+
+.hidden-el {
+    display: none;
+}

@@ -31,8 +31,8 @@ use yii\db\Expression;
 class Hotel extends ActiveRecord
 {
     public array $hotelCategoriesIds = [];
-    public $latitude;
-    public $longitude;
+    public float $latitude;
+    public float $longitude;
 
     public static function tableName(): string
     {
