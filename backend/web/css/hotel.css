@@ -1,0 +1,26 @@
+.image-upload-container {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.image-upload-container:hover {
+    border-color: #007bff;
+}
+
+.thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: #fff;
+}
+
+.thumbnail img {
+    border-radius: 3px;
+}
+
+.checkbox-inline {
+    font-size: 12px;
+}
